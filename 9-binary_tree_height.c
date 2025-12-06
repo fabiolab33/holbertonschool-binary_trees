@@ -14,7 +14,7 @@ if (tree == NULL)
 return (0);
 
 if (tree->left)
-left_h = 1 + binary_tree_height(tree->right);
+left_h = 1 + binary_tree_height(tree->left);
 
 if (tree->right)
 right_h = 1 + binary_tree_height(tree->right);
